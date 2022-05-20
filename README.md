@@ -19,7 +19,7 @@ _acme-challenge.example.com -> yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 Press any key to continue.:
 ```
 
-add on you dans records
+add on you dans records on you dns before press Enter
 
 ----------------------------
 
@@ -38,6 +38,8 @@ name: _acme-challenge
 value:yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
 
 ----------------------------
+
+then press enter 
 
 # show Certificate infos 
 
