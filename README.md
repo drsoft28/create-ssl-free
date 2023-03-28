@@ -14,6 +14,12 @@ Install-Module -Name Posh-ACME -Scope AllUsers
 Install-Module -Name Posh-ACME -Scope CurrentUser
 ```
 
+NOTE: On Windows, you may need to set a less restrictive PowerShell execution policy before you can import the module.
+
+```powershell
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+Import-Module Posh-ACME
+```
 
 # how to generate SSL 
 
